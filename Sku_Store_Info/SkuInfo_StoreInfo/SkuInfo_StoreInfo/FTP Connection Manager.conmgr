@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="FTP Connection Manager"
+  DTS:DTSID="{85848501-C021-4FE4-BB3B-115680AB48F8}"
+  DTS:CreationName="FTP">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="pimuatweb.eastus2.cloudapp.azure.com:21">
+      <DTS:FtpConnection
+        DTS:ServerName="pimuatweb.eastus2.cloudapp.azure.com"
+        DTS:ServerUserName="storestockuat"
+        DTS:UsePassiveMode="True">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqFFIC0VZ9EGLf0fxksqI4wAAAAACAAAAAAAQZgAAAAEAACAAAADYsQYlcReutjZ6XzeLPqwvW0EXJN82EfGCvPDn1mY1/gAAAAAOgAAAAAIAACAAAAD6dsDQDFtPEQIGnkLw6vaiPI/jEI5hxvX6VkDfbgvyrpAAAADydFxMbKQTo6+hCOaidPAh6kC8r4zgiqXY3ZAhsPGsc9fNzYkgKioOTuzvtcVgv1w17fNhPxi9oBPunvbImlLGn30/p5C8SaDOEIxhIHbsdOb1SjUAWSaSXn6dwf6LHHRY8vqgMqbD1vtMRrBw7chq8dkdFPctkwsKJepotXq07bstGUiwDcYprAOuhU+SJxpAAAAA3Ud5qJPh0zCo6GjfmbjYhapWtSU/9S4nmrGOO6zuGT/7U5v6sORUqTKjSWwN2zdNOaUuEjuni8zhjoPozxk8Rw==</DTS:Property>
+      </DTS:FtpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
