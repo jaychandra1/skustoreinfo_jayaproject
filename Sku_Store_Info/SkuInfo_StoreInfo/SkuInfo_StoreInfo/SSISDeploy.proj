@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<Project >
+	="https://schemas.microsoft.com/developer/msbuild/2003? DefaultTargets="SSISBuild;SSISDeploy">
+	<UsingTask TaskName="DeploymentFileCompilerTask" AssemblyFile="C:Program Files (x86)Microsoft Visual Studio 12.0Common7IDEPrivateAssembliesMicrosoft.SqlServer.IntegrationServices.Build.dll" />
+	<ItemGroup>
+		<SSISProjPath Include="DataWarehouse">
+			<DeploymentFile>.CI.SSISbinDevelopmentProject1.ispac</DeploymentFile>
+		</SSISProjPath>
+	</ItemGroup>
+	<UsingTask TaskName="DeployProjectToCatalogTask" AssemblyFile="C:Program Files (x86)Microsoft Visual Studio 12.0Common7IDEPrivateAssembliesMicrosoft.SqlServer.IntegrationServices.Build.dll" />
+	<Target Name="SSISDeploy">
+		<DeployProjectToCatalogTask DeploymentFile="%(SSISProjPath.DeploymentFile)" Instance="$(SSISServer)" Folder="%(SSISProjPath.Identity)" CreateFolder="true" Catalog="SSISDB" Environment="Development"/>
+	</Target>
+</Project>
