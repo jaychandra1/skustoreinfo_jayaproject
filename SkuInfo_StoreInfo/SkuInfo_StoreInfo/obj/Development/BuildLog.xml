@@ -2,43 +2,43 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SkuInfo_StoreInfo</Name>
-    <LastWriteTime>2022-04-07T15:43:51.7086504Z</LastWriteTime>
+    <LastWriteTime>2022-05-27T14:44:12.5750705Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>SKUInfor_JDUK.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:43:51.6596193Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.5660675Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>StoreInfo_GO.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:43:51.6106466Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.590072Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>SKUInfo_JD_JO.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:43:51.6446226Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.5610664Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>SKUInfo_JD_CR.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:43:51.6376246Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.5560646Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>skuinfo_JD_GO.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:43:51.6676193Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.8131223Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>skuinfo_GO.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:43:51.6526232Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.8071211Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>SKUInfo_ALLSites.dtsx</Name>
-      <LastWriteTime>2022-04-07T15:27:21.2522674Z</LastWriteTime>
+      <LastWriteTime>2022-05-27T14:44:12.5510641Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

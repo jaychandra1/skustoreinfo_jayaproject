@@ -31,7 +31,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqFFIC0VZ9EGLf0fxksqI4wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7oxAx/IeVvDWuC9BY7GXv1sHy/4qODpOigcYM8jnpoAAAAAAOgAAAAAIAACAAAAC66pX4YCV4gpgepXctqL5MgaS/vs+NP0pdiR3qZBkTEBAAAACZ43xPSMqVii98Y92AM3DyQAAAAIf6WP5UcFTEYcai0N6tIromaWRRh7hrunIsCqbKaOgk919B9zaDp+RNzRSsgWcpDtIiENMltuemR96OkKl68j0</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgkul6kuXMEOrluSygN256QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAOLp+UqtSH3soKnxuciXi4AAAAAASAAACgAAAAEAAAAMXM98Hd/E176/Ay2C3I/GgIAAAAZ6+iimNc+/AUAAAALqHZAhcorfW5lDO81Mb+Giuu548</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
