@@ -1,0 +1,27 @@
+<Project ToolsVersion="3.5" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Import Project="$(MSBuildExtensionsPath)\ExtensionPack\MSBuild.ExtensionPack.tasks"/>
+<Target Name="Default">
+    <PropertyGroup>
+        <OutputRoot>../../../build-artifacts</OutputRoot>
+    </PropertyGroup>
+    <ItemGroup>
+        <SSISProjectFile Include="SSISProject.dtproj"/>
+        <SSISProject Include="@(SSISProjectFile)">
+            <OutputDirectory>$(OutputRoot)</OutputDirectory>
+        </SSISProject>      
+    </ItemGroup>
+    <ItemGroup>
+        <Namespaces Include="Mynamespace">
+            <Prefix>DTS</Prefix>
+            <Uri>www.microsoft.com/SqlServer/Dts</Uri>
+        </Namespaces>
+    </ItemGroup>
+
+    <MSBuild.ExtensionPack.Xml.XmlFile 
+        TaskAction="UpdateElement" 
+        File="EnclarityDataImport.dtsx" 
+        XPath="//DTS:Property[@DTS:Name='ConfigurationString']" 
+        InnerText="$(MSBuildProjectDirectory)\EnclarityDataImport.dtsConfig"
+        Namespaces="@(Namespaces)"/>
+    <MSBuild.ExtensionPack.SqlServer.BuildDeploymentManifest InputProject="@(SSISProject)"/>
+</Target>
